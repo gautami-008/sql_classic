@@ -12,10 +12,11 @@ and resolve complex ranking problems (e.g., finding the $N^{\text{th}}$ highest 
    Time-Series Tracking: Utilized LAG() and LEAD() analytical functions alongside positional helpers
    
    like FIRST_VALUE() to track transactional metrics over chronological periods.
+   
   
-    Distribution Analysis:Applied NTILE(4) to dynamically split the customer base into
+Distribution Analysis:Applied NTILE(4) to dynamically split the customer base into
     
-    quartile buckets based on their credit profiles.
+quartile buckets based on their credit profiles.
     
     
    # Relational Joins & Data Modeling
