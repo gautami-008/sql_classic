@@ -60,7 +60,7 @@ concepts used by modern data teams.
   
     * BEFORE DELETE: Enforcing strict business logic constraint rules (blocking deletion of customers with On Hold orders).
   
-    * Parametric Procedures & CTEs: Developed highly reusable, encapsulated scripts using IN and OUT parameters for operational reporting alongside 
+* Parametric Procedures & CTEs: Developed highly reusable, encapsulated scripts using IN and OUT parameters for operational reporting alongside 
   
        modular Common Table Expressions (CTEs).
  
