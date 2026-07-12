@@ -3,11 +3,11 @@
  
 This repository moves systematically from foundational data filtering to advanced analytical concepts used by modern data teams.
 
-#  Data Aggregation & Analytical Window FunctionsRank Dynamics:
+#  Data Aggregation & Analytical Window Functions
 
-    Implemented ROW_NUMBER(), RANK(), and DENSE_RANK() side-by-side to handle identical values and
-    
-    resolve complex ranking problems (e.g., finding the $N^{\text{th}}$ highest credit limit).
+Rank Dynamics: Implemented ROW_NUMBER(), RANK(), and DENSE_RANK() side-by-side to handle identical values
+
+and resolve complex ranking problems (e.g., finding the $N^{\text{th}}$ highest credit limit).
    
    Time-Series Tracking: Utilized LAG() and LEAD() analytical functions alongside positional helpers
    
