@@ -28,13 +28,13 @@ quartile buckets based on their credit profiles.
     
     Self-Joins: Wrote hierarchical queries comparing corporate structures (mapping employees
     
-    to their direct managers) and uncovering structural correlations like shared office codes or
+    to their direct managers) and uncovering structural correlations like shared 
+   
+    office codes or identical product price tiers.
     
-    identical product price tiers.
+    Full Outer Join Simulation: Bypassed MySQL limits by merging LEFT JOIN and 
     
-    Full Outer Join Simulation: Bypassed MySQL limits by merging LEFT JOIN and RIGHT JOIN structures 
-    
-    via UNION operators to generate full, unmatched entity reporting.
+    RIGHT JOIN structures via UNION operators to generate full, unmatched entity reporting.
     
     
    # Database Program Design (Triggers, Procedures, & Functions)
@@ -42,14 +42,18 @@ quartile buckets based on their credit profiles.
     
     Automation Triggers: Built defensive database mechanisms including:
     
-      BEFORE INSERT: Enforcing validation parameters (preventing negative credit values).
+    BEFORE INSERT: Enforcing validation parameters (preventing negative credit values).
       
-      AFTER INSERT/AFTER UPDATE: Logging data modifications directly to dedicated transactional
+    AFTER INSERT/AFTER UPDATE: Logging data modifications directly to dedicated transactional
       
-      logging/audit tables (customer_audit, credit_limit_changesLogs).
+    logging/audit tables (customer_audit, credit_limit_changesLogs).
       
-      BEFORE DELETE: Enforcing strict business logic constraint rules (blocking deletion of customers with On Hold orders).
+   BEFORE DELETE: Enforcing strict business logic constraint rules (blocking deletion of customers with On Hold orders).
       
-      Parametric Procedures & CTEs: Developed highly reusable, encapsulated scripts using IN and OUT parameters for operational reporting alongside modular Common Table Expressions (CTEs).
+   Parametric Procedures & CTEs: Developed highly reusable, encapsulated scripts using IN and OUT parameters for
+   
+   operational reporting alongside modular Common Table Expressions (CTEs).
       
-      Deterministic Functions: Built modular string manipulation operations (getEmpFullName) that optimize report-ready presentation formatting
+      Deterministic Functions: Built modular string manipulation operations (getEmpFullName) that optimize 
+      
+      report-ready presentation formatting
