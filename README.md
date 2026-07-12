@@ -5,21 +5,18 @@ This repository moves systematically from foundational data filtering to advance
 
 #  Data Aggregation & Analytical Window Functions
 
-Rank Dynamics: Implemented ROW_NUMBER(), RANK(), and DENSE_RANK() side-by-side to handle identical values
+* Rank Dynamics: Implemented ROW_NUMBER(), RANK(), and DENSE_RANK() side-by-side to handle identical values
 
 and resolve complex ranking problems (e.g., finding the $N^{\text{th}}$ highest credit limit).
 
    
-   Time-Series Tracking: Utilized LAG() and LEAD() analytical functions alongside positional
+ *Time-Series Tracking: Utilized LAG() and LEAD() analytical functions alongside positional
    
-   helpers
-   
-   
-   like FIRST_VALUE() to track transactional metrics over chronological periods.
+   helpers  like FIRST_VALUE() to track transactional metrics over chronological periods.
    
    
   
-Distribution Analysis:Applied NTILE(4) to dynamically split the customer base into
+* Distribution Analysis: Applied NTILE(4) to dynamically split the customer base into
 
     
 quartile buckets based on their credit profiles.
